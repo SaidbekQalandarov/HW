@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.container{
+    max-width: 1110px;
+    height:auto;
+    margin: 0 auto;
+    background-color: aqua;
+}
+header{
+    max-width: 1110px;
+    height: 112px;
+    background-color: crimson;
+    border-bottom: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container header .header-left a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #69707D;
+    margin-right: 32px;
+}
+.container header .header-left img{
+    margin-right: 56px;
+}
+.container header .header-right .oval{
+    width: 50px;
+    height: 50px;
+}
+.container header .header-right .shop{
+    margin-bottom: 10px;
+    margin-right: 46px;
+}
+.container main{
+    max-width: 1015px;
+    height: auto;
+    background-color: rgb(255, 184, 184);
+    margin: 0 auto;
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+}
+.container main .img{
+    max-width: 445px;
+}
+.container main .img .fot{
+    max-width: 445px;
+}
+.container main .img .little-img{
+    margin-top: 32px;
+    margin-bottom: 100px;
+    margin-right: 25px;
+    
+}
+.container main .img .litle-img{
+    margin-bottom: 100px;
+}
+.container main .text{
+    margin-top: 62px;
+}
+.container main .text .text-2,.text-3{
+    max-width: 445px;
+}
+.container main .text .text-1{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF7E1B;
+}
+.container main .text .text-2{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 48px;
+    color: #1D2026;
+    margin-top: 27px;
+
+}
+.container main .text .text-3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #69707D;
+    margin-top: 32px;
+}
+.container main .text .text_1 .text-4{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #1D2026;
+    margin-top: 28px;
+}
+.container main .text .text_1 .text-5{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;text-decoration-line: line-through;
+    color: #B6BCC8;
+}
+.container main .text .text_1 img{
+    margin-left: 250px;
+}
+.value{
+    max-width: 157px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 16px;
+    background-color: #FFEEE2;
+    font-weight: 700;
+    border-radius: 6px;
+}
+.sign{
+    color: #FF7E1B;
+    font-size: 25px;
+}
+button {
+    background-color: #FF7E1B;
+    border: none;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    padding: 20px 77px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.bottom{
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width:898px){
+    .container main{
+        max-width: 1015px;
+        height: auto;
+        background-color: rgb(255, 184, 184);
+        margin: 0 auto;
+        flex-wrap:wrap;
+        margin-top: 90px;
+        justify-content: center;
+    }
+}
+@media(max-width:758px){
+    .container header .header-left img{
+        margin-right: 30px;
+    }
+    .container header .header-left a{
+        margin-right: 12px;
+    }
+    .container header .header-right .shop{
+        margin-right: 30px;
+    }
+}
+@media(max-width:732px){
+    .container header .header-left img{
+        margin: auto;
+    }
+    .container header .header-right .shop{
+        margin-right: 20px;
+    }
+    .container header .header-left a{
+        margin-right: 5px;
+    }
+}
+@media(max-width:541px){
+    .container header .header-left a{
+        display: none;
+    }
+}
+@media(max-width:375px){
+    .container header .header-left{
+        display: none;
+    } 
+}

@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@400;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Commissioner", sans-serif;
+}
+
+body {
+  max-width: 2550px;
+}
+
+header {
+  margin: 0 auto;
+  width: 1440px;
+  height: 178px;
+  background-color: blue;
+  justify-content: space-between;
+  display: flex;
+}
+header .block {
+  background-color: aqua;
+  width: 705px;
+  height: auto;
+}
+header .block img {
+  margin-top: 76px;
+  margin-left: 203px;
+}
+header .blok2 {
+  background: #F94F4F;
+  width: 600px;
+  height: auto;
+}
+header .blok2 .blok3 {
+  display: flex;
+  align-items: center;
+}
+header .blok2 .blok3 a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+header .blok2 .blok3 .call {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  width: 199px;
+  height: 64px;
+  background: #191921;
+  text-align: center;
+  text-decoration: none;
+}
+
+main {
+  background-color: #e49797;
+  margin: 0 auto;
+  width: 1440px;
+  height: auto;
+}
+main .main-img {
+  width: 1440px;
+  height: 800px;
+  background-image: url(..//img/img/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+main .main-img .p-tag {
+  justify-content: center;
+  width: 600px;
+  height: auto;
+  margin-left: 165px;
+}
+main .main-img .p-tag p {
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 88px;
+  color: #000000;
+}
+main .main-img .p-tag .p-2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000;
+}
+main .main-img .p-tag .more {
+  background-color: #F94F4F;
+  width: 177px;
+  height: 72px;
+}
+main .main-img .p-tag .more a {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}/*# sourceMappingURL=style.css.map */

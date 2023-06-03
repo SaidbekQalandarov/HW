@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.contener{
+    justify-content: center;
+    align-items: center;
+    header{
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 80px;
+        max-width: 100%;
+        height: 80px;
+        background-color: #2b3844;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+        .box{
+            font-weight: 800;
+            font-size: 24px;
+            color: #FFFFFF;
+        }
+        .bot{
+            font-weight: 600;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+    }
+    main{
+        box-sizing: border-box;
+        max-width: 100%;
+        height: auto;
+        background-color: #202C36;
+        input{
+            width: 480px;
+            height: 56px;
+            background: #2b3844;
+            border: none;
+            border-radius: 5px;
+            color: #FFFFFF;
+            padding: 20px;
+        }
+        select{
+            width: 200px;
+            height: 56px;
+            background: #2b3844;
+            border: none;
+            border-radius: 5px;
+            color: #FFFFFF;
+        }
+        .local{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 48px 80px;
+        }
+        .local_region{
+            width: 264px;
+            height: 336px;
+            background: #2B3844;
+            box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .german{
+            font-weight: 800;
+            font-size: 18px;
+            color: #FFFFFF;
+            padding: 24px 24px ;
+        }
+        .info{
+            padding: 16px 24px 46px;
+            font-weight: 600;
+            font-size: 14px;
+            color: #FFFFFF;
+        }
+        .region_contener{
+            display: flex;
+            justify-content:space-around;
+            flex-wrap: wrap;
+            padding:0px  80px 80px;
+        }
+    }
+}
+@media(max-width:710px){
+    .region_contener{
+        gap: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .local_region{
+        margin-bottom: 80px;
+    }
+}
